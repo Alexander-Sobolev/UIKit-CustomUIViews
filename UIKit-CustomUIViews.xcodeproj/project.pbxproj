@@ -13,6 +13,7 @@
 		B4B384F92727E3EA0076FC1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B384F72727E3EA0076FC1A /* Main.storyboard */; };
 		B4B384FB2727E3EB0076FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B384FA2727E3EB0076FC1A /* Assets.xcassets */; };
 		B4B384FE2727E3EB0076FC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B384FC2727E3EB0076FC1A /* LaunchScreen.storyboard */; };
+		B4B385062727E57C0076FC1A /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B385052727E57C0076FC1A /* Checkbox.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B4B384FA2727E3EB0076FC1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4B384FD2727E3EB0076FC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B384FF2727E3EB0076FC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B385052727E57C0076FC1A /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				B4B384F12727E3EA0076FC1A /* AppDelegate.swift */,
 				B4B384F32727E3EA0076FC1A /* SceneDelegate.swift */,
+				B4B385052727E57C0076FC1A /* Checkbox.swift */,
 				B4B384F52727E3EA0076FC1A /* ViewController.swift */,
 				B4B384F72727E3EA0076FC1A /* Main.storyboard */,
 				B4B384FA2727E3EB0076FC1A /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4B385062727E57C0076FC1A /* Checkbox.swift in Sources */,
 				B4B384F62727E3EA0076FC1A /* ViewController.swift in Sources */,
 				B4B384F22727E3EA0076FC1A /* AppDelegate.swift in Sources */,
 				B4B384F42727E3EA0076FC1A /* SceneDelegate.swift in Sources */,
