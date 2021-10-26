@@ -14,6 +14,8 @@
 		B4B384FB2727E3EB0076FC1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4B384FA2727E3EB0076FC1A /* Assets.xcassets */; };
 		B4B384FE2727E3EB0076FC1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B4B384FC2727E3EB0076FC1A /* LaunchScreen.storyboard */; };
 		B4B385062727E57C0076FC1A /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4B385052727E57C0076FC1A /* Checkbox.swift */; };
+		B4B3850A2727E70A0076FC1A /* Screen1.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B385082727E70A0076FC1A /* Screen1.png */; };
+		B4B3850B2727E70A0076FC1A /* Screen2.png in Resources */ = {isa = PBXBuildFile; fileRef = B4B385092727E70A0076FC1A /* Screen2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		B4B384FD2727E3EB0076FC1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B4B384FF2727E3EB0076FC1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B4B385052727E57C0076FC1A /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		B4B385082727E70A0076FC1A /* Screen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen1.png; sourceTree = "<group>"; };
+		B4B385092727E70A0076FC1A /* Screen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screen2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 		B4B384F02727E3EA0076FC1A /* UIKit-CustomUIViews */ = {
 			isa = PBXGroup;
 			children = (
+				B4B385072727E6C80076FC1A /* Screen */,
 				B4B384F12727E3EA0076FC1A /* AppDelegate.swift */,
 				B4B384F32727E3EA0076FC1A /* SceneDelegate.swift */,
 				B4B385052727E57C0076FC1A /* Checkbox.swift */,
@@ -68,6 +73,15 @@
 				B4B384FF2727E3EB0076FC1A /* Info.plist */,
 			);
 			path = "UIKit-CustomUIViews";
+			sourceTree = "<group>";
+		};
+		B4B385072727E6C80076FC1A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B4B385082727E70A0076FC1A /* Screen1.png */,
+				B4B385092727E70A0076FC1A /* Screen2.png */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +144,8 @@
 				B4B384FE2727E3EB0076FC1A /* LaunchScreen.storyboard in Resources */,
 				B4B384FB2727E3EB0076FC1A /* Assets.xcassets in Resources */,
 				B4B384F92727E3EA0076FC1A /* Main.storyboard in Resources */,
+				B4B3850B2727E70A0076FC1A /* Screen2.png in Resources */,
+				B4B3850A2727E70A0076FC1A /* Screen1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
