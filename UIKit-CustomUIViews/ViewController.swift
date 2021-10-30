@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-    }  
+    }   
     @IBAction func checkChanged(_ sender: Checkbox) {
                      
       print("Checkbox \(sender.checked ? "Checked" : "Unchecked")")
